@@ -78,9 +78,13 @@ rm -rf %{buildroot}
 # cleanup
 rm -f docs/html/*.map
 
+%if %mdkversion < 200900
 %post -n %{libname} -p /sbin/ldconfig
+%endif
 
+%if %mdkversion < 200900
 %postun -n %{libname} -p /sbin/ldconfig
+%endif
 
 %clean
 rm -rf %{buildroot}
