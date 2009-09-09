@@ -5,7 +5,7 @@
 Summary:	Zookeeper C client library
 Name:		zookeeper-c
 Version:	2.1.0
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	Apache License
 Group:		System/Libraries
 URL:		http://zookeeper.sourceforge.net/
