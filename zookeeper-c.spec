@@ -8,7 +8,7 @@ Version:	2.1.0
 Release:	%mkrel 3
 License:	Apache License
 Group:		System/Libraries
-URL:		http://zookeeper.sourceforge.net/
+URL:		https://zookeeper.sourceforge.net/
 Source0:	http://dfn.dl.sourceforge.net/sourceforge/zookeeper/%{name}-%{version}.tgz
 Patch0:		zookeeper-autopoo_fixes.diff
 BuildRequires:	cppunit-devel >= 1.10.2
