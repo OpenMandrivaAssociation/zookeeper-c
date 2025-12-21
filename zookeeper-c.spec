@@ -11,6 +11,11 @@ Group:		System/Libraries
 URL:		https://zookeeper.sourceforge.net/
 Source0:	http://dfn.dl.sourceforge.net/sourceforge/zookeeper/%{name}-%{version}.tgz
 Patch0:		zookeeper-autopoo_fixes.diff
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	cppunit-devel >= 1.10.2
 BuildRequires:	dos2unix
 BuildRequires:	doxygen
